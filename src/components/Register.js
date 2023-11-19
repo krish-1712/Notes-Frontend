@@ -51,24 +51,24 @@ const Register = () => {
       <h1 style={{ "textAlign": "center", color: "black" }}>Signup</h1>
       <Form onSubmit={handleSubmit}>
         <Form.Group className="mb-3" id='wid'>
-          <Form.Label style={{ color: "black", fontSize: "25px" }}> Name</Form.Label>
+          <Form.Label style={{ color: "black", fontSize: "19px", marginLeft: "160px" }}> Name</Form.Label>
           <Form.Control type="text" placeholder="Enter the  Name" className="name1" name="name" value={values.name}
             onChange={handleChange} />
           {touched.name && errors.name ? <p style={{ color: "crimson" }}>{errors.name}</p> : ""}
         </Form.Group>
         <Form.Group className="mb-3">
-          <Form.Label style={{ color: "black", fontSize: "25px" }}>Email address</Form.Label>
+          <Form.Label style={{ color: "black", fontSize: "19px", marginLeft: "160px" }}>Email address</Form.Label>
           <Form.Control type="email" placeholder="Enter email address" className="email1" name="email" value={values.email}
             onChange={handleChange} />
           {touched.email && errors.email ? <p style={{ color: "crimson" }}>{errors.email}</p> : ""}
         </Form.Group>
         <Form.Group className="mb-3">
-          <Form.Label style={{ color: "black", fontSize: "25px" }}>Password</Form.Label>
+          <Form.Label style={{ color: "black", fontSize: "19px", marginLeft: "160px" }}>Password</Form.Label>
           <Form.Control type="password" placeholder="Enter the Password" className="password1" name="password" value={values.password}
             onChange={handleChange} />
           {touched.password && errors.password ? <p style={{ color: "crimson" }}>{errors.password}</p> : ""}
         </Form.Group>
-        <Button variant="primary" type='submit' className='mind' style={{ marginLeft: "25px", backgroundColor: "#007bff", color: "white" }}>
+        <Button variant="primary" type='submit' className='mind' style={{ marginLeft: "320px", backgroundColor: "#007bff", color: "white" }}>
           Signup
         </Button>
       </Form>

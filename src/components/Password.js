@@ -57,11 +57,11 @@ const Password = () => {
   }, [decodedToken]);
   return (
     <div className='Password-wrapper'>
-      <h1 style={{ "textAlign": "center", color: "white" }}>Reset Password </h1>
-      <Form onSubmit={handleSubmit} className='like'>
 
+      <Form onSubmit={handleSubmit} className='like'>
+        <h1 style={{ "textAlign": "center", color: "black" }}>Reset Password </h1>
         <Form.Group className="mb-3" >
-          <Form.Label style={{ fontSize: "20px" }} className='hump'>Password</Form.Label>
+          <Form.Label style={{ fontSize: "19px", marginLeft: "40px" }} className='hump'>Password</Form.Label>
           <Form.Control
             type="password"
             placeholder="Enter the Pasword"
@@ -75,7 +75,7 @@ const Password = () => {
           {touched.password && errors.password ? <p style={{ color: 'crimson' }}>{errors.password}</p> : ''}
         </Form.Group>
         <Form.Group className="mb-3" >
-          <Form.Label style={{ fontSize: "20px" }}>New Password</Form.Label>
+          <Form.Label style={{ fontSize: "19px", marginLeft: "40px" }}>New Password</Form.Label>
           <Form.Control
             type="password"
             placeholder="Enter the New Password"

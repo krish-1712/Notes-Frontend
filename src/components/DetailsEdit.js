@@ -73,6 +73,7 @@ const DetailsEdit = ({ user, setUser }) => {
     <Navabar>
       <div className="new">
         <Form onSubmit={handleSubmit} className="loots">
+          <h1 style={{ "textAlign": "center", color: "black" }}>Edit Notes </h1>
           <Form.Group className="mb-3">
             <Form.Label className="lid" style={{ "margin-right": "530px" }}>Title</Form.Label>
             <Form.Control
@@ -99,6 +100,7 @@ const DetailsEdit = ({ user, setUser }) => {
               onChange={handleChange}
               as="textarea"
               rows={3}
+              style={{ width: "93%", height: "100px" }}
             />
             {touched.content && errors.content && <p style={{ color: "crimson" }}>{errors.content}</p>}
           </Form.Group>
@@ -111,6 +113,7 @@ const DetailsEdit = ({ user, setUser }) => {
               name="dob"
               value={values.dob}
               onChange={handleChange}
+              style={{ width: "93%", height: "30px" }}
             />
             {touched.dob && errors.dob && <p style={{ color: "crimson" }}>{errors.dob}</p>}
           </Form.Group>

@@ -62,7 +62,7 @@ const Login = () => {
             name="email"
             value={values.email}
             onChange={handleChange}
-            style={{ width: "50%", marginLeft: "190px" }}
+            style={{ width: "50%", marginLeft: "150px" }}
 
           />
           {touched.email && errors.email ? <p style={{ color: 'crimson' }}>{errors.email}</p> : ''}
@@ -76,7 +76,7 @@ const Login = () => {
             name="password"
             value={values.password}
             onChange={handleChange}
-            style={{ width: "50%", marginLeft: "190px" }}
+            style={{ width: "50%", marginLeft: "150px" }}
 
           />
           {touched.password && errors.password ? <p style={{ color: 'crimson' }}>{errors.password}</p> : ''}
@@ -86,7 +86,7 @@ const Login = () => {
         </Button><br></br><br></br>
         <Link to="/register" style={{ color: "darkblue" }}>Create Account</Link><br></br>
         <Link to="/forgot" style={{ color: "darkblue" }}>Forgot Password</Link><br></br>
-        
+
 
 
       </Form>

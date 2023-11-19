@@ -6,8 +6,8 @@
   margin: 50px auto;
   padding: 30px;
   border-radius: 8px;
-  background-color: lightskyblue;
-  width: 60%;
+  background-color: white;
+  width: 40%;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   text-align: center;
 }
@@ -28,11 +28,11 @@ form {
 }
 
 .add {
-  margin-right: 340px;
+  margin-right: 150px;
 }
 
 .add2 {
-  margin-right: 370px;
+  margin-right: 180px;
 }
 
 .email2,
@@ -56,12 +56,7 @@ form {
 
 }
 
-.email2,
-.password2:focus {
-  outline: none;
-  border-color: #007bff;
-  box-shadow: 0 0 12px rgba(0, 123, 255, 0.4);
-}
+
 
 .error-message {
   color: crimson;
@@ -91,7 +86,7 @@ a {
   margin-top: 10px;
   color: darkblue;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 13px;
   transition: color 0.3s;
 }
 

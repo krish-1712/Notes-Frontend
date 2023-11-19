@@ -35,11 +35,11 @@ const Forgot = () => {
   return (
     <div className='forgot-wrapper'>
       <h1 style={{ "textAlign": "center", color: "black" }}>Forgot Password</h1>
-      <h4 className='for' style={{ "textAlign": "center", fontSize: "25px" }}>Enter The Email Address Associate With your Account<br></br>
+      <h4 className='for' style={{ "textAlign": "center", fontSize: "19px" }}>Enter The Email Address Associate With your Account<br></br>
         and we will Send you a Link to Reset your Password </h4>
       <Form onSubmit={handleSubmit}>
         <Form.Group className="mb-3">
-          <Form.Label className='rid' style={{ fontSize: "25px" }}>Email address</Form.Label>
+          <Form.Label className='rid' style={{ fontSize: "19px", marginRight: "160px" }}>Email address</Form.Label>
           <Form.Control type="email" placeholder="Enter email address" className="email" id='email' name="email" value={values.email}
             onChange={handleChange} style={{ color: "black" }} />
           {touched.email && errors.email ? <p style={{ color: "crimson" }}>{errors.email}</p> : ""}

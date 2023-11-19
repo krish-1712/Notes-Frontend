@@ -51,6 +51,7 @@ const Dasboard = () => {
         <Navabar>
             <div className="new">
                 <Form onSubmit={handleSubmit}>
+                    <h1 style={{ "textAlign": "center", color: "black" }}>Create Notes</h1>
                     <Form.Group className="mb-3">
                         <Form.Label className="right" >Title</Form.Label>
                         <Form.Control
