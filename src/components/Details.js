@@ -80,7 +80,7 @@ const Details = () => {
                       <button className="edit-button" onClick={() => handleEdit(user)}>
                         Edit
                       </button>
-                      <button className="delete-button" onClick={() => handleView(user)}>
+                      <button className="view-button" onClick={() => handleView(user)}>
                         View
                       </button>
                       <button className="delete-button" onClick={() => handleDelete(user)}>
