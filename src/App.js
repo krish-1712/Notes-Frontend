@@ -8,7 +8,7 @@ import Navabar from './components/Navbar';
 import Details from './components/Details';
 import DetailsEdit from './components/DetailsEdit';
 import ViewContent from './components/ViewContent';
-export const url = "http://localhost:8000"
+export const url = "https://notes-application-9xk4.onrender.com"
 
 
 
