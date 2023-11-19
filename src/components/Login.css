@@ -1,0 +1,100 @@
+.login-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 50px auto;
+  padding: 30px;
+  border-radius: 8px;
+  background-color: lightskyblue;
+  width: 60%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 48px;
+  color: #007bff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+form {
+  width: 100%;
+}
+
+.form-group {
+  margin-bottom: 30px;
+}
+
+.add {
+  margin-right: 340px;
+}
+
+.add2 {
+  margin-right: 370px;
+}
+
+.email2,
+.password2 {
+  font-size: 15px;
+  margin-bottom: 15px;
+  display: block;
+  color: #555;
+  font-weight: bold;
+
+}
+
+.email2,
+.password2 {
+  width: 50%;
+  padding: 15px;
+  border-radius: 8px;
+  border: 1px solid #ced4da;
+  background-color: #fff;
+  transition: border-color 0.3s, box-shadow 0.3s;
+
+}
+
+.email2,
+.password2:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 12px rgba(0, 123, 255, 0.4);
+}
+
+.error-message {
+  color: crimson;
+  font-size: 16px;
+  margin-top: 8px;
+  font-style: italic;
+}
+
+.sub {
+  padding: 10px 29px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 8px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.sub:hover {
+  background-color: #0056b3;
+}
+
+a {
+  margin-top: 10px;
+  color: darkblue;
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: #004080;
+}

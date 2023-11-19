@@ -1,0 +1,70 @@
+.user-details-content {
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f7f7f7;
+    width: 70%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 100px;
+}
+
+
+.all-users-table {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+
+.edit-button,
+.delete-button {
+    padding: 8px 12px;
+    margin-right: 5px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.edit-button {
+    background-color: #007bff;
+    color: white;
+}
+
+
+.delete-button {
+    background-color: #dc3545;
+    color: white;
+}
+
+
+.edit-button:hover,
+.delete-button:hover {
+    background-color: #0056b3;
+}
+
+.action-buttons {
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .user-details-content {
+        width: 90%;
+    }
+}
