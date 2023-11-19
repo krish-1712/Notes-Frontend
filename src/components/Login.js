@@ -86,7 +86,7 @@ const Login = () => {
         </Button><br></br><br></br>
         <Link to="/register" style={{ color: "darkblue" }}>Create Account</Link><br></br>
         <Link to="/forgot" style={{ color: "darkblue" }}>Forgot Password</Link><br></br>
-        <Link to="/password" style={{ color: "darkblue" }}>reset Password</Link><br></br>
+        
 
 
       </Form>
